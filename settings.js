@@ -48,7 +48,7 @@ global.author = process.env.STICKER_AUTHOR_NAME || "sung"
 
 //-------------------[ BOT'S PREFIX ]--------------------//
 
-global.prefixz = process.env.BOT_PREFIX || '.'
+global.prefixz = process.env.BOT_PREFIX || ''
 
 //-----------------[ BOT'S MODE ]-----------------------//
 
@@ -74,7 +74,7 @@ global.autoreactstatus = process.env.AUTO_STATUS_REACT || 'false'
 
 //---------------[ ALWAYS ONLINE ]------------------//
 
-global.alwaysonline = process.env.ALWAYS_ONLINE || 'true'
+global.alwaysonline = process.env.ALWAYS_ONLINE || 'false'
 //Set true to make the bot online 24/7 or set false to disable always online
 
 
